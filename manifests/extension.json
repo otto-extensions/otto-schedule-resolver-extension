@@ -1,0 +1,14 @@
+{
+  "id": "otto.schedule.resolver.extension",
+  "name": "Otto Schedule Resolver Extension",
+  "version": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "description": "Provides deterministic schedule period resolution and phase calculation helpers for Otto workflows.",
+  "author": "Otto Systems",
+  "entrypoints": {
+    "core": "src/schedule-core.ts",
+    "commands": "src/schedule-commands.ts",
+    "runtime": "src/schedule-runtime.mjs"
+  },
+  "capabilities": ["schedule", "periods", "phase"]
+}
